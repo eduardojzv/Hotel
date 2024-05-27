@@ -7,10 +7,6 @@ import VideoPresentation from "../sections/home/videoPresentationSection";
 import InfoSection from "../sections/home/infoSection";
 import useIntersectionObserver from "../utils/intersectionObserver";
 import VacationClub from "../sections/home/vacationClub";
-//lazy import
-// const InfoSection=lazy(()=>import('../sections/home/infoSection'))
-// const CommentsParallax=lazy(()=>import('../sections/home/commentsParallax'))
-// const RoomsAndSuite=lazy(()=>import('../sections/home/rooms&Suite'))
 export default function Home() {
     const opc = { rootMargin: '-50px' }
     const [elementRef, isIntersecting] = useIntersectionObserver(opc)
