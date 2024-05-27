@@ -27,7 +27,7 @@ export default function InfoSection() {
         <h1 className=''>
           Fiesta Resort
         </h1>
-        <h1>Un resort familiar en Costa Rica TEST</h1>
+        <h1>Un resort familiar en Costa Rica</h1>
       </div>
       <div className="flex gap-8 justify-center mt-4 mb-4">
         <CircleIcon fill="#EB00AE" />
