@@ -6,10 +6,10 @@ import { breakPointVariants } from "../../helpers/breakPoinsMenuItems";
 import { motion } from "framer-motion";
 import AccordionResponsive from "./AccordionResponsive";
 import Language from "./language";
-import ThemeSwitcher from "../themeSwitcher/themeSwitcher";
 import DropDownHeader from "./dropDownHeader";
 import { useLocation } from "react-router-dom";
 import ModalReservation from "./modalReservation";
+import ThemeSwitcher from "../others/themeSwitcher/themeSwitcher";
 
 export default function Header() {
   const location = useLocation();
@@ -99,10 +99,6 @@ export default function Header() {
             </NavbarItem>
           ))}
         </NavbarContent>
-        {/* <Button color="primary" className="absolute -bottom-10 right-10 w-40 h-10" variant="shadow"
-          startContent={<CalendarIcon width='30px' height='30px' />} onPress={onOpen} >
-          Reserva Ahora
-        </Button> */}
         <ModalReservation/>
 
         <NavbarContent className={`${breakPointVariants.hidden['services'] || ''}`}>
