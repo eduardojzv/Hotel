@@ -53,7 +53,7 @@ export default function ModalReservation() {
                   />
                 </div>
                 <Divider />
-                <div className="flex gap-2 flex-col h-[340px] overflow-y-scroll">
+                <div className="flex gap-2 flex-col max-h-[340px] overflow-y-scroll">
                   {Array.from({ length: rooms }, (_, index) => (
                     <div className='flex flex-col gap-2' key={index}>
                       <h1>Cuarto N°{index + 1}</h1>
