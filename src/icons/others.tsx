@@ -1,10 +1,11 @@
-export const ChevronDown = ({fill, size, height, width, ...props}:any) => {
+import { SVGProps } from "react"
+export const ChevronDown = ({fill,  height, width, ...props}:SVGProps<SVGSVGElement>) => {
   return (
     <svg
       fill="none"
-      height={size || height || 24}
+      height={height || 24}
       viewBox="0 0 24 24"
-      width={size || width || 24}
+      width={width || 24}
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
