@@ -1,5 +1,5 @@
 import CardOffers from "../../components/home/cardOffers";
-import { offersData } from "../../helpers/offersData";
+import { offersData } from "../../helpers/home/offersData";
 import { CircleIcon } from "../../icons/home/icons";
 import { motion } from "framer-motion";
 export default function Offers() {

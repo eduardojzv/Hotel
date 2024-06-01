@@ -1,6 +1,6 @@
-import { CircleIcon } from "../icons/home/icons";
-import { CardHomeData } from "../interfaces/cardHomeData";
-import { URLS } from "./URLS";
+import { CircleIcon } from "../../icons/home/icons";
+import { CardHomeData } from "../../interfaces/cardHomeData";
+import { URLS } from "../URLS";
 export const cardHomeData: CardHomeData[] = [
     {
         title: 'AVISO DE REMODELACIÓN: HABITACIONES',

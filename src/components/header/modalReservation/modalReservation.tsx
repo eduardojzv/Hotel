@@ -1,33 +1,16 @@
-import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Input, Divider } from "@nextui-org/react";
-import { CalendarIcon, TrashIcon } from "../../icons/menu/icons";
-import DateRange from "../others/dateRange/dateRange";
+import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, Input, Divider, SelectItem, Select } from "@nextui-org/react";
+import { CalendarIcon, TrashIcon } from "../../../icons/menu/icons";
+import DateRange from "../../others/dateRange/dateRange";
 import QuantityInputs from "./quantityInputs";
 import { FormEvent } from "react";
-import { useFormModal } from "../../utils/zustandStore/clientsReservation";
+import { useFormModal } from "../../../utils/zustandStore/clientsReservation";
+import ChildrenAges from "./childrenAges";
 export default function ModalReservation() {
-  const { rooms,deleteRoom,handleRoom} = useFormModal()
-
-
+  const { reservation, deleteRoom, handleRoom } = useFormModal()
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  //  const [rooms, setRooms] = useState(1)
-  // function handleRooms(val: string) {
-  //   const newVal = Number(val);
-  //   if (!isNaN(newVal) && newVal >= 1) {
-  //     if (newVal > 10) {
-  //       setRooms(10)
-  //     } else {
-  //       setRooms(newVal)
-  //     }
-  //   } else {
-  //     setRooms(0)
-  //   }
-  // }
-  // function onBlurRooms() {
-  //   if (rooms <= 0) setRooms(1)
-  // }
   function obSubmitForm(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    console.log("ee", rooms);
+    console.log("ee", reservation);
   }
 
   return (
@@ -51,28 +34,45 @@ export default function ModalReservation() {
               </ModalHeader>
               <ModalBody>
                 <div className="w-[45%]">
-                  <Input
+                  {/* <Input
                     className=""
                     type="number"
                     label="Habitaciones (min 1)"
                     placeholder="0"
                     labelPlacement="outside"
-                    value={rooms.length<=0?'':rooms.length.toString()}
+                    value={reservation.length<=0?'':reservation.length.toString()}
                     onValueChange={(val)=>handleRoom(Number(val))}
                     min={0}
                     isRequired
-                  />
+                  /> */}
+                  <Select
+                    isRequired
+                    label="Cantidad de Habitaciones"
+                    placeholder="Seleccione la cantidad de Niños"
+                    defaultSelectedKeys={["1"]}
+                    className="max-w-xs"
+                    onChange={(e)=>handleRoom(Number(e.target.value))}
+                    //onChange={(e) => handleChildren(idx, Number(e.target.value))}
+                  >
+
+                    {Array.from({ length: 10 }, (_, index) => (
+                      <SelectItem key={index+1} textValue={(index+1).toString()}>
+                        {index+1}
+                      </SelectItem>
+                    ))}
+                  </Select>
                 </div>
                 <Divider />
                 <div className="flex gap-2 flex-col max-h-[330px] overflow-y-scroll">
-                  {rooms.length > 0
-                    ? rooms.map((item,idx) => (
+                  {reservation.length > 0
+                    ? reservation.map((item, idx) => (
                       <div className='flex flex-col gap-2' key={idx}>
                         <div className="flex flex-row items-center justify-between">
                           <h1>Cuarto N°{idx + 1}</h1>
-                          <TrashIcon width='20px' height='20px' className="fill-red-400 cursor-pointer hover:fill-red-600" onClick={()=>deleteRoom(idx)}/>
+                          <TrashIcon width='20px' height='20px' className="fill-red-400 cursor-pointer hover:fill-red-600" onClick={() => deleteRoom(idx)} />
                         </div>
                         <QuantityInputs quantityAdults={item.adults} children={item.children} idx={idx} />
+                        <ChildrenAges key={`ages-${idx}`} children={item.children} />
                         <Divider />
                       </div>
                     ))

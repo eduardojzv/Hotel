@@ -1,6 +1,6 @@
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, NavbarItem, Button } from '@nextui-org/react'
 import { ChevronDown} from "../../icons/others";
-import { dropAndAcciordionItems } from '../../helpers/menuItems';
+import { moreServicesItems } from '../../helpers/navBar/menuItems';
 export default function DropDownHeader() {
   return (
     <Dropdown>
@@ -9,11 +9,11 @@ export default function DropDownHeader() {
           <Button
             disableRipple
             className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base"
-            endContent={<ChevronDown fill="currentColor" size={16}/>}
+            endContent={<ChevronDown fill="currentColor"/>}
             radius="sm"
-            startContent={dropAndAcciordionItems.services.icon}
+            startContent={moreServicesItems.services.icon}
           >
-            {dropAndAcciordionItems.services.text}
+            {moreServicesItems.services.text}
           </Button>
         </DropdownTrigger>
       </NavbarItem>
@@ -25,7 +25,7 @@ export default function DropDownHeader() {
           title:'text-wrap'
         }}
       >
-        {Object.entries(dropAndAcciordionItems.subItems).map(([key, val]) => (
+        {Object.entries(moreServicesItems.subItems).map(([key, val]) => (
           <DropdownItem key={key}
             description="ACME scales apps to meet user demand, automagically, based on load."
             startContent={val.icon}

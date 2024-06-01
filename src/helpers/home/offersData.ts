@@ -1,4 +1,4 @@
-import { OfferData } from "../interfaces/offerData";
+import { OfferData } from "../../interfaces/offerData";
 
 export const offersData: OfferData[] = [
     {

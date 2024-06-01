@@ -1,5 +1,5 @@
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
-import { languages } from "../../helpers/languajes";
+import { languages } from "../../helpers/navBar/languajes";
 import { useEffect, useState } from "react";
 export default function Language() {
   const [selectedKeys, setSelectedKeys]: any = useState(new Set([localStorage.getItem('language') || languages[0]]));
@@ -38,7 +38,7 @@ export default function Language() {
         disallowEmptySelection
         selectionMode="single"
         selectedKeys={selectedKeys}
-        onSelectionChange={(val) => setLanguageStorage(val)}
+        onSelectionChange={setLanguageStorage}
       >
         {languages.map((lang) => (
           <DropdownItem key={lang}>{lang}</DropdownItem>

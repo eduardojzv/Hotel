@@ -1,7 +1,7 @@
-import { URLS } from "./URLS";
-import { AllInclusiveIcon, HomeIcon, LodgingIcon, GalleryIcon, OfferIcon, ExcursionIcon, FoodIcon, StarIcon, PartyIcon, SpanIcon, FitnessIcon, GroupUsersIcon, ServiceIcon, ClubIcon } from "../icons/menu/icons";
-import { NavBarItems } from "../interfaces/navBarItems";
-import { DropAndAcciordionItems } from "../interfaces/dropAndAcciordionItems";
+import { URLS } from "../URLS";
+import { AllInclusiveIcon, HomeIcon, LodgingIcon, GalleryIcon, OfferIcon, ExcursionIcon, FoodIcon, StarIcon, PartyIcon, SpanIcon, FitnessIcon, GroupUsersIcon, ServiceIcon, ClubIcon } from "../../icons/menu/icons";
+import { NavBarItems } from "../../interfaces/navBarItems";
+import { MoreServicesItems } from "../../interfaces/dropAndAcciordionItems";
 
 
 const iconSize = {
@@ -41,7 +41,7 @@ export const navItems: NavBarItems = {
   },
 }
 //
-export const dropAndAcciordionItems: DropAndAcciordionItems = {
+export const moreServicesItems: MoreServicesItems = {
   services: {
     text: ' Más Servicios',
     icon: <ServiceIcon width={iconSize.width} height={iconSize.height} />,

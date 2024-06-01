@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Navigation } from 'swiper/modules';
-import { vacacionalClubData } from "../../helpers/vacacionalClubData";
+import { vacacionalClubData } from "../../helpers/home/vacacionalClubData";
 export default function VacationClub() {
     return (
         <Card
