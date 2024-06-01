@@ -8,11 +8,11 @@ import 'swiper/css/navigation';
 import './commentsParallax.css';
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
-import { commentsData } from '../../helpers/commentsData';
+import { commentsData } from '../../helpers/home/commentsData';
 import { useTheme } from 'next-themes';
 export default function CommentsParallax() {
   const { theme } = useTheme();
-  const swiperCss: any = {
+  const swiperCss: object = {
     //Pagination
     '--swiper-pagination-bullet-inactive-color': theme === 'dark' ? '#FFFFFF' : '#000000',
     '--swiper-pagination-bullet-inactive-opacity': 0.8,

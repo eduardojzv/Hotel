@@ -4,7 +4,7 @@ import { ChevronDown } from "../../icons/others"
 import { useState } from "react"
 import { motion } from "framer-motion"
 import CardHome from "../../components/home/cardHome"
-import { cardHomeData } from "../../helpers/cardHomeData"
+import { cardHomeData } from "../../helpers/home/cardHomeData"
 export default function InfoSection() {
   const [read, setRead] = useState({
     text: 'Leer Más',
@@ -46,7 +46,7 @@ export default function InfoSection() {
             <p>Venga a descubrir el Fiesta Resort, donde todo está incluido y nada se interpone entre usted y unas inolvidables vacaciones de playa en Costa Rica.</p>
           </motion.div>
         }
-        <Button color="primary" variant="ghost" onClick={ReadMore} endContent={<ChevronDown fill="currentColor" size={14} />}>
+        <Button color="primary" variant="ghost" onClick={ReadMore} endContent={<ChevronDown fill="currentColor"/>}>
           {read.text}
         </Button>
         <div className="flex flex-col gap-4">

@@ -1,0 +1,2592 @@
+{
+    "hotelCode": 106978,
+    "roomStays": [
+        {
+            "roomtypes": [
+                {
+                    "roomtypeId": 448172,
+                    "sortOrder": 1,
+                    "roomName": "FIESTA 2 CAMAS DOBLES",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 7,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 104.0,
+                                    "amountTotal": 104.0,
+                                    "discount": 104.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 9,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 11.9646,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 312.0,
+                                "amountAfterTaxRoom": 312.0,
+                                "grossRoomAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 104.0
+                            },
+                            "averageDailyRate": 156.0,
+                            "discountedAverageDailyRate": 52.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "7",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 7,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 9,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 416.0,
+                                "amountAfterTaxRoom": 416.0,
+                                "grossRoomAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 208.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "7",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 7,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 9,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 416.0,
+                                "amountAfterTaxRoom": 416.0,
+                                "grossRoomAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 208.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "7",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448177,
+                    "sortOrder": 2,
+                    "roomName": "FIESTA 1 CAMA KING",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 8,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 104.0,
+                                    "amountTotal": 104.0,
+                                    "discount": 104.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 8,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 11.9646,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 312.0,
+                                "amountAfterTaxRoom": 312.0,
+                                "grossRoomAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 104.0
+                            },
+                            "averageDailyRate": 156.0,
+                            "discountedAverageDailyRate": 52.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "8",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 8,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 8,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 416.0,
+                                "amountAfterTaxRoom": 416.0,
+                                "grossRoomAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 208.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "roomUpgradeOptions": [
+                                {
+                                    "roomTypeId": 448180,
+                                    "sortOrder": 1
+                                },
+                                {
+                                    "roomTypeId": 448848,
+                                    "sortOrder": 2
+                                },
+                                {
+                                    "roomTypeId": 448850,
+                                    "sortOrder": 3
+                                },
+                                {
+                                    "roomTypeId": 448854,
+                                    "sortOrder": 4
+                                }
+                            ],
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "8",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 8,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 208.0,
+                                    "amountTotal": 208.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 8,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 23.9292,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 416.0,
+                                "amountAfterTaxRoom": 416.0,
+                                "grossRoomAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTax": 416.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 208.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "8",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448180,
+                    "sortOrder": 3,
+                    "roomName": "JR SUITE VISTA A JARDIN",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 228.0,
+                                    "amountTotal": 228.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 14,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 26.2301,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 114.0,
+                                    "amountTotal": 114.0,
+                                    "discount": 114.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 21,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 13.115,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 342.0,
+                                "amountAfterTaxRoom": 342.0,
+                                "grossRoomAmountBeforeTax": 456.0,
+                                "grossAmountBeforeTax": 456.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 114.0
+                            },
+                            "averageDailyRate": 171.0,
+                            "discountedAverageDailyRate": 57.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "14",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 228.0,
+                                    "amountTotal": 228.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 14,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 26.2301,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 228.0,
+                                    "amountTotal": 228.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 21,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 26.2301,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 456.0,
+                                "amountAfterTaxRoom": 456.0,
+                                "grossRoomAmountBeforeTax": 456.0,
+                                "grossAmountBeforeTax": 456.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 228.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "14",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 228.0,
+                                    "amountTotal": 228.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 14,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 26.2301,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 228.0,
+                                    "amountTotal": 228.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 21,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 26.2301,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 456.0,
+                                "amountAfterTaxRoom": 456.0,
+                                "grossRoomAmountBeforeTax": 456.0,
+                                "grossAmountBeforeTax": 456.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 228.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "14",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448848,
+                    "sortOrder": 4,
+                    "roomName": "JR SUITE VISTA A PISCINA",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 16,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 119.0,
+                                    "amountTotal": 119.0,
+                                    "discount": 119.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 18,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 13.6903,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 357.0,
+                                "amountAfterTaxRoom": 357.0,
+                                "grossRoomAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 119.0
+                            },
+                            "averageDailyRate": 178.5,
+                            "discountedAverageDailyRate": 59.5,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "16",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 16,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 18,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 476.0,
+                                "amountAfterTaxRoom": 476.0,
+                                "grossRoomAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 238.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "16",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 16,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 18,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 476.0,
+                                "amountAfterTaxRoom": 476.0,
+                                "grossRoomAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 238.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "16",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448850,
+                    "sortOrder": 5,
+                    "roomName": "JR SUITE FAMILIAR",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 15,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 144.0,
+                                    "amountTotal": 144.0,
+                                    "discount": 144.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 14,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 16.5664,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 432.0,
+                                "amountAfterTaxRoom": 432.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 144.0
+                            },
+                            "averageDailyRate": 216.0,
+                            "discountedAverageDailyRate": 72.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "14",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 15,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 14,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "14",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 15,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 14,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "14",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448851,
+                    "sortOrder": 6,
+                    "roomName": "JR SUITE NUPCIAL",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 2,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 119.0,
+                                    "amountTotal": 119.0,
+                                    "discount": 119.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 1,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 13.6903,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 357.0,
+                                "amountAfterTaxRoom": 357.0,
+                                "grossRoomAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 119.0
+                            },
+                            "averageDailyRate": 178.5,
+                            "discountedAverageDailyRate": 59.5,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "1",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 2,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 1,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 476.0,
+                                "amountAfterTaxRoom": 476.0,
+                                "grossRoomAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 238.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "1",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 2,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 238.0,
+                                    "amountTotal": 238.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 1,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 27.3805,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 476.0,
+                                "amountAfterTaxRoom": 476.0,
+                                "grossRoomAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTax": 476.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 238.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "1",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448854,
+                    "sortOrder": 7,
+                    "roomName": "VISTA AL MAR 1 CAMA KING",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 12,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 144.0,
+                                    "amountTotal": 144.0,
+                                    "discount": 144.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 15,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 16.5664,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 432.0,
+                                "amountAfterTaxRoom": 432.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 144.0
+                            },
+                            "averageDailyRate": 216.0,
+                            "discountedAverageDailyRate": 72.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "12",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 12,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 15,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "12",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 12,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 15,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "12",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448856,
+                    "sortOrder": 8,
+                    "roomName": "VISTA AL MAR 2 CAMAS DOBLES",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 31,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 144.0,
+                                    "amountTotal": 144.0,
+                                    "discount": 144.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 31,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 16.5664,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 432.0,
+                                "amountAfterTaxRoom": 432.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 144.0
+                            },
+                            "averageDailyRate": 216.0,
+                            "discountedAverageDailyRate": 72.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "31",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 31,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 31,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "31",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 31,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 31,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "31",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448858,
+                    "sortOrder": 9,
+                    "roomName": "PREFERENCIA PARA ACCESIBILIDAD-2 CAMAS DOBLES",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 1,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 144.0,
+                                    "amountTotal": 144.0,
+                                    "discount": 144.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 5,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 16.5664,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 432.0,
+                                "amountAfterTaxRoom": 432.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 144.0
+                            },
+                            "averageDailyRate": 216.0,
+                            "discountedAverageDailyRate": 72.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "1",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 1,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 5,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "1",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 1,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 5,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "1",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                },
+                {
+                    "roomtypeId": 448859,
+                    "sortOrder": 10,
+                    "roomName": "PREFERENCIA PARA ACCESIBILIDAD-UNA CAMA KING",
+                    "products": [
+                        {
+                            "productId": 5303601,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 4,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 144.0,
+                                    "amountTotal": 144.0,
+                                    "discount": 144.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 4,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 16.5664,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 432.0,
+                                "amountAfterTaxRoom": 432.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 144.0
+                            },
+                            "averageDailyRate": 216.0,
+                            "discountedAverageDailyRate": 72.0,
+                            "promoInfo": {
+                                "promotionId": 20218916,
+                                "promotionName": "2024 Fiesta Promo 2 A/2 noches",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": true,
+                                "geoPricingPromotion": true,
+                                "xNightsDiscount": 50.0,
+                                "xNightsDiscountType": "Percent",
+                                "numberOfNightsToDiscount": 1,
+                                "discountType": "Percent",
+                                "numberOfNightsToPurchase": 1,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true,
+                                "merchandisedPromotion": {
+                                    "labelText": "Oferta especial!!",
+                                    "saleText": "Promocion Limitada!!",
+                                    "valueAddedText": "\"1 noche gratis 1 persona\"",
+                                    "termsAndConditions": "- Oferta sujeta a disponibilidad.\n- No aplica en ocupación sencilla.\n- Aplica únicamente para nuevas reservaciones.\n- Hospédese del 25 de febrero al 30 de junio 2024 en Fiesta Resort, y elige lo siguiente:\n- Si te hospedas 1 noche, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas. (no incluye el almuerzo buffet el dia del ingreso)\n- Si te hospedas 2 noches, la segunda noche es gratis para un acompañante, con ingreso a partir de las 03:00 p.m.\n- Si te hospedas 3 noches, recibe Early check in (ingreso) gratis a partir de las 11:00 a.m. con derecho a snacks y bebidas + segunda noche gratis para un acompañante.\n- Promoción válida de domingo a jueves.\n-No aplica con otras promociones o grupos, Semana Santa, ni feriados.\n- El cargo se realizará inmediatamente al reservar.\n-Para anular se requiere 72 horas de anticipación previo al ingreso.",
+                                    "replaceRateplanName": "Promo Fiesta"
+                                }
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "4",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 3052362,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 4,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 4,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "4",
+                            "isAbstract": false
+                        },
+                        {
+                            "productId": 7641729,
+                            "isAvailable": true,
+                            "nightlyRates": [
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-04",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 4,
+                                    "propertyLevelInv": 203,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                },
+                                {
+                                    "isAvailable": true,
+                                    "date": "2024-06-05",
+                                    "amountBeforeTax": 288.0,
+                                    "amountTotal": 288.0,
+                                    "discount": 0.0,
+                                    "totalTax": 0.0,
+                                    "inventoryCount": 4,
+                                    "propertyLevelInv": 222,
+                                    "totalExclusiveTaxes": 0.0,
+                                    "totalInclusiveTaxes": 33.1327,
+                                    "outTotalExclusiveTaxes": 0.0,
+                                    "totalResortFeeInclusive": 0.0,
+                                    "totalResortFeeExclusive": 0.0,
+                                    "totalServiceChargeInclusive": 0.0,
+                                    "totalServiceChargeExclusive": 0.0
+                                }
+                            ],
+                            "total": {
+                                "amountBeforeTaxRoom": 576.0,
+                                "amountAfterTaxRoom": 576.0,
+                                "grossRoomAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTax": 576.0,
+                                "grossAmountBeforeTaxServ": 0.0,
+                                "amountBeforeTaxServ": 0.0,
+                                "taxAmountTotal": 0.0,
+                                "taxAmountTotalServ": 0.0,
+                                "discountRoom": 0.0
+                            },
+                            "averageDailyRate": 288.0,
+                            "discountedAverageDailyRate": 0.0,
+                            "promoInfo": {
+                                "promotionName": "",
+                                "expiresInSeconds": 0,
+                                "enablePromoBanner": false,
+                                "geoPricingPromotion": false,
+                                "xNightsDiscount": 0.0,
+                                "numberOfNightsToDiscount": 0,
+                                "discountType": "",
+                                "numberOfNightsToPurchase": 0,
+                                "numberOfNightsFree": 0,
+                                "enableStrikeThrough": true
+                            },
+                            "type": "Regular",
+                            "merchandisedCurrency": "",
+                            "quantityRemaining": "4",
+                            "isAbstract": false
+                        }
+                    ],
+                    "isAvailable": true
+                }
+            ],
+            "rateplans": [
+                {
+                    "rateplanId": 5303601,
+                    "ratePlanName": "Promo Fiesta for National Residents ",
+                    "type": "Regular",
+                    "sortOrder": 1,
+                    "isAvailable": true,
+                    "cancellationPolicy": {
+                        "nonRefundable": false,
+                        "description": "Fin de semana (viernes y domingo): \r\nPuede cancelar su reserva de forma gratuita 7 días antes de la llegada, después de eso se cargará la primera noche.\r\n \r\nEntre semana (Lunes a Jueves):\r\nPuede cancelar su reserva de forma gratuita 3 días antes de la llegada, después de eso se cargará la primera noche.",
+                        "cancellationDeadlines": [
+                            {
+                                "checkInDate": "2024-06-04",
+                                "deadLineDate": "2024-06-04",
+                                "deadLineHour": 15,
+                                "deadLineDurationHours": 0
+                            }
+                        ],
+                        "merchandiseAsFreeCancellation": false,
+                        "sameDayCancellations": {
+                            "sameDayCancellation": false,
+                            "remainingCancellationHours": 0
+                        },
+                        "advancedNoticeCancellations": {
+                            "isAdvancedNoticeCancellation": true,
+                            "remainingDays": 0,
+                            "remainingHours": 0
+                        }
+                    },
+                    "guaranteePolicy": {
+                        "policyType": "Deposit",
+                        "description": "",
+                        "acceptTender": "Credit Card, Alternate Payments",
+                        "isInstallmentEnabled": false
+                    },
+                    "leadRate": {
+                        "rate": 156.0,
+                        "roomtypeId": 448172,
+                        "discount": 52.0
+                    },
+                    "roomTypes": [
+                        {
+                            "roomtypeId": 448172,
+                            "sortOrder": 1,
+                            "roomName": "FIESTA 2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448177,
+                            "sortOrder": 2,
+                            "roomName": "FIESTA 1 CAMA KING",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448180,
+                            "sortOrder": 3,
+                            "roomName": "JR SUITE VISTA A JARDIN",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448848,
+                            "sortOrder": 4,
+                            "roomName": "JR SUITE VISTA A PISCINA",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448850,
+                            "sortOrder": 5,
+                            "roomName": "JR SUITE FAMILIAR",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448851,
+                            "sortOrder": 6,
+                            "roomName": "JR SUITE NUPCIAL",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448854,
+                            "sortOrder": 7,
+                            "roomName": "VISTA AL MAR 1 CAMA KING",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448856,
+                            "sortOrder": 8,
+                            "roomName": "VISTA AL MAR 2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448858,
+                            "sortOrder": 9,
+                            "roomName": "PREFERENCIA PARA ACCESIBILIDAD-2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448859,
+                            "sortOrder": 10,
+                            "roomName": "PREFERENCIA PARA ACCESIBILIDAD-UNA CAMA KING",
+                            "isAvailable": true
+                        }
+                    ],
+                    "isDefault": true,
+                    "isAbstract": false,
+                    "isConfidential": false,
+                    "pmsRateExternalCode": "MPF",
+                    "idRequired": false
+                },
+                {
+                    "rateplanId": 3052362,
+                    "ratePlanName": "Best Available Rate",
+                    "type": "Regular",
+                    "sortOrder": 2,
+                    "isAvailable": true,
+                    "cancellationPolicy": {
+                        "nonRefundable": false,
+                        "description": "Fin de semana (viernes y domingo): \r\nPuede cancelar su reserva de forma gratuita 7 días antes de la llegada, después de eso se cargará la primera noche.\r\n \r\nEntre semana (Lunes a Jueves):\r\nPuede cancelar su reserva de forma gratuita 3 días antes de la llegada, después de eso se cargará la primera noche.",
+                        "cancellationDeadlines": [
+                            {
+                                "checkInDate": "2024-06-04",
+                                "deadLineDate": "2024-06-04",
+                                "deadLineHour": 15,
+                                "deadLineDurationHours": 0
+                            }
+                        ],
+                        "merchandiseAsFreeCancellation": false,
+                        "sameDayCancellations": {
+                            "sameDayCancellation": false,
+                            "remainingCancellationHours": 0
+                        },
+                        "advancedNoticeCancellations": {
+                            "isAdvancedNoticeCancellation": true,
+                            "remainingDays": 0,
+                            "remainingHours": 0
+                        }
+                    },
+                    "guaranteePolicy": {
+                        "policyType": "Deposit",
+                        "description": "",
+                        "acceptTender": "Credit Card, Alternate Payments",
+                        "isInstallmentEnabled": false
+                    },
+                    "leadRate": {
+                        "rate": 208.0,
+                        "roomtypeId": 448177,
+                        "discount": 0.0
+                    },
+                    "roomTypes": [
+                        {
+                            "roomtypeId": 448172,
+                            "sortOrder": 1,
+                            "roomName": "FIESTA 2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448177,
+                            "sortOrder": 2,
+                            "roomName": "FIESTA 1 CAMA KING",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448180,
+                            "sortOrder": 3,
+                            "roomName": "JR SUITE VISTA A JARDIN",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448848,
+                            "sortOrder": 4,
+                            "roomName": "JR SUITE VISTA A PISCINA",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448850,
+                            "sortOrder": 5,
+                            "roomName": "JR SUITE FAMILIAR",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448851,
+                            "sortOrder": 6,
+                            "roomName": "JR SUITE NUPCIAL",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448854,
+                            "sortOrder": 7,
+                            "roomName": "VISTA AL MAR 1 CAMA KING",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448856,
+                            "sortOrder": 8,
+                            "roomName": "VISTA AL MAR 2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448858,
+                            "sortOrder": 9,
+                            "roomName": "PREFERENCIA PARA ACCESIBILIDAD-2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448859,
+                            "sortOrder": 10,
+                            "roomName": "PREFERENCIA PARA ACCESIBILIDAD-UNA CAMA KING",
+                            "isAvailable": true
+                        }
+                    ],
+                    "isDefault": false,
+                    "isAbstract": false,
+                    "isConfidential": false,
+                    "pmsRateExternalCode": "01",
+                    "idRequired": false
+                },
+                {
+                    "rateplanId": 7641729,
+                    "ratePlanName": "Compra Anticipada",
+                    "type": "Regular",
+                    "sortOrder": 3,
+                    "isAvailable": true,
+                    "cancellationPolicy": {
+                        "nonRefundable": false,
+                        "description": "Fin de semana (viernes y domingo): \r\nPuede cancelar su reserva de forma gratuita 7 días antes de la llegada, después de eso se cargará la primera noche.\r\n \r\nEntre semana (Lunes a Jueves):\r\nPuede cancelar su reserva de forma gratuita 3 días antes de la llegada, después de eso se cargará la primera noche.",
+                        "cancellationDeadlines": [
+                            {
+                                "checkInDate": "2024-06-04",
+                                "deadLineDate": "2024-06-04",
+                                "deadLineHour": 15,
+                                "deadLineDurationHours": 0
+                            }
+                        ],
+                        "merchandiseAsFreeCancellation": false,
+                        "sameDayCancellations": {
+                            "sameDayCancellation": false,
+                            "remainingCancellationHours": 0
+                        },
+                        "advancedNoticeCancellations": {
+                            "isAdvancedNoticeCancellation": true,
+                            "remainingDays": 0,
+                            "remainingHours": 0
+                        }
+                    },
+                    "guaranteePolicy": {
+                        "policyType": "Deposit",
+                        "description": "No reembolsable",
+                        "acceptTender": "Credit Card, Alternate Payments",
+                        "isInstallmentEnabled": false
+                    },
+                    "leadRate": {
+                        "rate": 208.0,
+                        "roomtypeId": 448172,
+                        "discount": 0.0
+                    },
+                    "roomTypes": [
+                        {
+                            "roomtypeId": 448172,
+                            "sortOrder": 1,
+                            "roomName": "FIESTA 2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448177,
+                            "sortOrder": 2,
+                            "roomName": "FIESTA 1 CAMA KING",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448180,
+                            "sortOrder": 3,
+                            "roomName": "JR SUITE VISTA A JARDIN",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448848,
+                            "sortOrder": 4,
+                            "roomName": "JR SUITE VISTA A PISCINA",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448850,
+                            "sortOrder": 5,
+                            "roomName": "JR SUITE FAMILIAR",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448851,
+                            "sortOrder": 6,
+                            "roomName": "JR SUITE NUPCIAL",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448854,
+                            "sortOrder": 7,
+                            "roomName": "VISTA AL MAR 1 CAMA KING",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448856,
+                            "sortOrder": 8,
+                            "roomName": "VISTA AL MAR 2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448858,
+                            "sortOrder": 9,
+                            "roomName": "PREFERENCIA PARA ACCESIBILIDAD-2 CAMAS DOBLES",
+                            "isAvailable": true
+                        },
+                        {
+                            "roomtypeId": 448859,
+                            "sortOrder": 10,
+                            "roomName": "PREFERENCIA PARA ACCESIBILIDAD-UNA CAMA KING",
+                            "isAvailable": true
+                        }
+                    ],
+                    "isDefault": false,
+                    "isAbstract": false,
+                    "isConfidential": false,
+                    "pmsRateExternalCode": "AP1",
+                    "idRequired": false
+                }
+            ]
+        }
+    ],
+    "isAvailable": true,
+    "promotionApplied": false
+}

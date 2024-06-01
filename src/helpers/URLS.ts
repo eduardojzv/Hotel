@@ -26,7 +26,6 @@ export const URLS: Urls = {
     },
     lodging: {
         path: '/lodging',
-
     },
     gallery: {
         path: '/gallery',

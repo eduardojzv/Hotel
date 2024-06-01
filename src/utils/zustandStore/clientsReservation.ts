@@ -1,21 +1,20 @@
 import { create } from 'zustand'
-interface Room {
+interface ReservationDetails {
   adults: number;
   children: {
     quantity: number;
     ages: number[];
   };
 }
-
-interface Reservation {
+interface ReservationStore {
   date: string; // or Date if you prefer a Date object
-  rooms: Room[];
+  reservation: ReservationDetails[];
   handleRoom: (val: number) => void;
   deleteRoom: (idx: number) => void;
   handleAdults: (idx: number, newAdultCount: number) => void;
   handleChildren: (idx: number, newChildrenCount: number) => void;
 }
-const defaultRoom: Room = {
+const defaulReservation: ReservationDetails = {
   adults: 1,
   children: {
     quantity: 0,
@@ -23,9 +22,9 @@ const defaultRoom: Room = {
   }
 
 }
-export const useFormModal = create<Reservation>()((set) => ({
+export const useFormModal = create<ReservationStore>()((set) => ({
   date: "2024-05-26",
-  rooms: [
+  reservation: [
     {
       adults: 1,
       children: {
@@ -34,36 +33,37 @@ export const useFormModal = create<Reservation>()((set) => ({
       }
     }
   ],
+  rooms:[],
   handleAdults: (idx, newAdultCount) => set((state) => {
     const adjustedAdultCount = Math.min(Math.max(newAdultCount, 0), 10);
     return {
-      rooms: state.rooms.map((room, index) =>
+      reservation: state.reservation.map((room, index) =>
         index === idx ? { ...room, adults: adjustedAdultCount } : room
       )
     };
   }),
-  handleChildren: (idx, newChildrenCount) => set((state) => {
+  handleChildren: (idx, newChildrenCount) => set((state) => {    
     const adjustedChildrenCount = Math.min(Math.max(newChildrenCount, 0), 12);
     return {
-      rooms: state.rooms.map((room, index) =>
+      reservation: state.reservation.map((room, index) =>
         index === idx ? { ...room, children: { ...room.children, quantity: adjustedChildrenCount } } : room
       )
     };
   }),
   handleRoom: (val) => set((state) => {
     const adjustedVal = Math.min(Math.max(val, 0), 10);
-    const currentRooms = state.rooms.length;
+    const currentRooms = state.reservation.length;
     if (adjustedVal > currentRooms) {
       const roomsToAdd = adjustedVal - currentRooms;
-      const newRooms = Array.from({ length: roomsToAdd }, () => ({ ...defaultRoom }));
-      return { rooms: [...state.rooms, ...newRooms] };
+      const newRooms = Array.from({ length: roomsToAdd }, () => ({ ...defaulReservation }));
+      return { reservation: [...state.reservation, ...newRooms] };
     } else if (adjustedVal < currentRooms) {
-      return { rooms: state.rooms.slice(0, adjustedVal) };
+      return { reservation: state.reservation.slice(0, adjustedVal) };
     } else {
       return state;
     }
   }),
   deleteRoom: (idx) => set((state) => ({
-    rooms: state.rooms.filter((_, index) => index !== idx)
+    reservation: state.reservation.filter((_, index) => index !== idx)
   })),
 }))

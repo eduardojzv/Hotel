@@ -1,16 +1,16 @@
 import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link} from "@nextui-org/react";
 import { FiestaResortIcon, Logo } from "../../icons/menu/icons";
-import { navItems } from "../../helpers/menuItems";
-import { useState } from "react";
-import { breakPointVariants } from "../../helpers/breakPoinsMenuItems";
+import { navItems } from "../../helpers/navBar/menuItems";
+import { lazy, useState } from "react";
+import { breakPointVariants } from "../../helpers/navBar/breakPoinsMenuItems";
 import { motion } from "framer-motion";
 import AccordionResponsive from "./AccordionResponsive";
 import Language from "./language";
 import DropDownHeader from "./dropDownHeader";
 import { useLocation } from "react-router-dom";
-import ModalReservation from "./modalReservation";
 import ThemeSwitcher from "../others/themeSwitcher/themeSwitcher";
-
+//lazy
+const ModalReservation=lazy(()=>import('./modalReservation/modalReservation'))
 export default function Header() {
   const location = useLocation();
   //console.log("location,Se re-renderiza cada vez que el icono se mueve en el nav",location.pathname);

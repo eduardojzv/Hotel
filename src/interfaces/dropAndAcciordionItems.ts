@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-export interface DropAndAcciordionItems {
+export interface MoreServicesItems {
     services: {
         text: string;
         icon: ReactNode;
