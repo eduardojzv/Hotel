@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function RoomsAndSuite() {
     return (
         <motion.div
-        className="w-full h-[500px] flex flex-col justify-center items-center bg-[url('/public/home/roomSuite.jpg')] bg-cover bg-center"
+        className="w-full h-[500px] flex flex-col justify-center items-center bg-[url('home/roomSuite.jpg')] bg-cover bg-center"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
