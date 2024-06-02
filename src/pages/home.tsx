@@ -27,7 +27,7 @@ export default function Home() {
                     <div className="w-[85%] min-h-[1100px]" ref={InfoSectionRef}>
                         {isIntersectingInfoSectionRef && <InfoSection />}
                     </div>
-                    <div className="w-full h-[610px]" ref={CommentsParallaxRef}>
+                    <div className="w-full min-h-[610px]" ref={CommentsParallaxRef}>
                         {isIntersectingCommentsParallax && <CommentsParallax />}
                     </div>
                     <div ref={RoomsAndSuiteRef}>
@@ -37,10 +37,10 @@ export default function Home() {
                     <div className="min-h-[1250px]" ref={OffersRef}>
                         {isIntersectingOffers && <Offers/>}
                     </div>
-                    <div className="h-[530px]" ref={VacationClubRef}>
+                    <div className="min-h-[530px]" ref={VacationClubRef}>
                     {isIntersectingVacationClub && <VacationClub />}
                     </div>
-                    <div className="min-h-[950px] w-full" ref={AwardsRef}>
+                    <div className="min-h-[760px] w-full" ref={AwardsRef}>
                        {isIntersectingAwards &&  <Awards/>}
                     </div>
                 </div>
