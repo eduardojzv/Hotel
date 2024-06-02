@@ -7,12 +7,15 @@ import VideoPresentation from "../sections/home/videoPresentationSection";
 import InfoSection from "../sections/home/infoSection";
 import useIntersectionObserver from "../utils/intersectionObserver";
 import VacationClub from "../sections/home/vacationClub";
+import Awards from "../sections/home/awards";
 export default function Home() {
     const opc = { rootMargin: '-50px' }
-    const [elementRef, isIntersecting] = useIntersectionObserver(opc)
-    const [elementRef2, isIntersecting2] = useIntersectionObserver(opc)
-    const [elementRef3, isIntersecting3] = useIntersectionObserver(opc)
-    const [elementRef4, isIntersecting4] = useIntersectionObserver(opc)
+    const [InfoSectionRef, isIntersectingInfoSectionRef] = useIntersectionObserver(opc)
+    const [CommentsParallaxRef, isIntersectingCommentsParallax] = useIntersectionObserver(opc)
+    const [RoomsAndSuiteRef, isIntersectingRoomsAndSuite] = useIntersectionObserver(opc)
+    const [OffersRef, isIntersectingOffers] = useIntersectionObserver(opc)
+    const [VacationClubRef, isIntersectingVacationClub] = useIntersectionObserver(opc)
+    const [AwardsRef, isIntersectingAwards] = useIntersectionObserver(opc)
 
     return (
         <MainLayout>
@@ -21,21 +24,24 @@ export default function Home() {
                     <VideoPresentation />
                 </div>
                 <div className="flex flex-col items-center gap-8 mb-5">
-                    <div className="w-[85%] min-h-[1100px]" ref={elementRef}>
-                        {isIntersecting && <InfoSection />}
+                    <div className="w-[85%] min-h-[1100px]" ref={InfoSectionRef}>
+                        {isIntersectingInfoSectionRef && <InfoSection />}
                     </div>
-                    <div className="w-full h-[610px]" ref={elementRef2}>
-                        {isIntersecting2 && <CommentsParallax />}
+                    <div className="w-full h-[610px]" ref={CommentsParallaxRef}>
+                        {isIntersectingCommentsParallax && <CommentsParallax />}
                     </div>
-                    <div ref={elementRef3}>
-                        {isIntersecting3 && <RoomsAndSuite />}
+                    <div ref={RoomsAndSuiteRef}>
+                        {isIntersectingRoomsAndSuite && <RoomsAndSuite />}
                     </div>
 
-                    <div className="min-h-[1250px]" ref={elementRef4}>
-                        {isIntersecting4 && <Offers />}
+                    <div className="min-h-[1250px]" ref={OffersRef}>
+                        {isIntersectingOffers && <Offers/>}
                     </div>
-                    <div>
-                        <VacationClub />
+                    <div className="h-[530px]" ref={VacationClubRef}>
+                    {isIntersectingVacationClub && <VacationClub />}
+                    </div>
+                    <div className="min-h-[950px] w-full" ref={AwardsRef}>
+                       {isIntersectingAwards &&  <Awards/>}
                     </div>
                 </div>
             </Suspense>
