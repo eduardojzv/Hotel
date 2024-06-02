@@ -16,6 +16,11 @@ interface Urls {
     socialProgram: UrlDetails;
     club: UrlDetails;
 }
+interface FooterUrls {
+    contactLocation: UrlDetails;
+    emailOffers: UrlDetails;
+    privacyPolicy: UrlDetails
+}
 export const URLS: Urls = {
     home: {
         path: '/',
@@ -58,5 +63,16 @@ export const URLS: Urls = {
         path: '/club',
     }
 };
+export const FooterURLS: FooterUrls = {
+    contactLocation: {
+        path: "/contact-location"
+    },
+    emailOffers: {
+        path: "/email-offers"
+    },
+    privacyPolicy: {
+        path: "/privacy-policy"
+    }
+}
 
 

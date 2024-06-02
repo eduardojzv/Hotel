@@ -82,7 +82,9 @@ export default function Header() {
               <div className="w-[85px]"></div>
           }
           <Language />
+          
         </NavbarContent>
+        
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           {Object.entries(navItems).map(([key, val]) => (
             <NavbarItem key={key} isActive={val.href === currentPage} className={`${breakPointVariants.hidden[key as keyof typeof breakPointVariants.hidden] || ''}`}>
