@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { motion } from 'framer-motion';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -22,11 +21,7 @@ export default function CommentsParallax() {
     '--swiper-navigation-sides-offset': '10px'
   }
   return (
-    <motion.div className='h-full'
-    initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }}
-    >
+    <>
       <Swiper
         className='h-[600px]'
         speed={600}
@@ -59,6 +54,6 @@ export default function CommentsParallax() {
             </SwiperSlide>
           ))}
       </Swiper>
-    </motion.div>
+    </>
   );
 }

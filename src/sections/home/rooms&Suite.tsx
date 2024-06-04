@@ -1,14 +1,8 @@
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
 import { CircleIcon } from "../../icons/home/icons";
-import { motion } from "framer-motion";
 export default function RoomsAndSuite() {
     return (
-        <motion.div
-        className="w-full h-[500px] flex flex-col justify-center items-center bg-[url('/public/home/roomSuite.jpg')] bg-cover bg-center"
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-        >
+        <div className="w-full h-[500px] flex flex-col justify-center items-center bg-[url('/public/home/roomSuite.jpg')] bg-cover bg-center">
             <Card className="w-2/3 max-h-[500px] opacity-80 flex flex-col justify-center items-center gap-2">
                 <CardHeader className="flex flex-col justify-center items-center">
                     <p className="text-4xl font-kaushan text-blue-500">Habitaciones y Suites</p>
@@ -24,6 +18,6 @@ export default function RoomsAndSuite() {
                         la habitación que le sea adecuada.</p>
                 </CardBody>
             </Card>
-        </motion.div>
+        </div>
     )
 }

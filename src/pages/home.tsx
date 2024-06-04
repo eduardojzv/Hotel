@@ -8,6 +8,8 @@ import InfoSection from "../sections/home/infoSection";
 import useIntersectionObserver from "../utils/intersectionObserver";
 import VacationClub from "../sections/home/vacationClub";
 import Awards from "../sections/home/awards";
+import ObserverdAnimation from "../components/animation/observerdAnimation";
+import { AnimationProps } from "framer-motion";
 export default function Home() {
     const opc = { rootMargin: '-50px' }
     const [InfoSectionRef, isIntersectingInfoSectionRef] = useIntersectionObserver(opc)
@@ -16,7 +18,12 @@ export default function Home() {
     const [OffersRef, isIntersectingOffers] = useIntersectionObserver(opc)
     const [VacationClubRef, isIntersectingVacationClub] = useIntersectionObserver(opc)
     const [AwardsRef, isIntersectingAwards] = useIntersectionObserver(opc)
-
+    //Animation Props
+    const animationConfigs: AnimationProps = {
+        initial: { opacity: 0, scale: 0.5,originX:1},
+        animate:{ opacity: 1, scale: 1 },
+        transition:{ duration: 0.4}
+    }
     return (
         <MainLayout>
             <Suspense fallback={<p>Cargando</p>}>
@@ -25,23 +32,47 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col items-center gap-8 mb-5">
                     <div className="w-[85%] min-h-[1100px]" ref={InfoSectionRef}>
-                        {isIntersectingInfoSectionRef && <InfoSection />}
+                        {isIntersectingInfoSectionRef &&
+                            <ObserverdAnimation animationConfig={animationConfigs}>
+                                <InfoSection />
+                            </ObserverdAnimation>
+                        }
                     </div>
                     <div className="w-full min-h-[610px]" ref={CommentsParallaxRef}>
-                        {isIntersectingCommentsParallax && <CommentsParallax />}
+                        {isIntersectingCommentsParallax &&
+                            <ObserverdAnimation animationConfig={animationConfigs}>
+                                <CommentsParallax />
+                            </ObserverdAnimation>
+                        }
                     </div>
                     <div ref={RoomsAndSuiteRef}>
-                        {isIntersectingRoomsAndSuite && <RoomsAndSuite />}
+                        {isIntersectingRoomsAndSuite &&
+                            <ObserverdAnimation animationConfig={animationConfigs}>
+                                <RoomsAndSuite />
+                            </ObserverdAnimation>
+                        }
                     </div>
 
                     <div className="min-h-[1250px]" ref={OffersRef}>
-                        {isIntersectingOffers && <Offers/>}
+                        {isIntersectingOffers &&
+                            <ObserverdAnimation animationConfig={animationConfigs}>
+                                <Offers />
+                            </ObserverdAnimation>
+                        }
                     </div>
                     <div className="min-h-[530px]" ref={VacationClubRef}>
-                    {isIntersectingVacationClub && <VacationClub />}
+                        {isIntersectingVacationClub &&
+                            <ObserverdAnimation animationConfig={animationConfigs}>
+                                <VacationClub />
+                            </ObserverdAnimation>
+                        }
                     </div>
-                    <div className="min-h-[760px] w-full" ref={AwardsRef}>
-                       {isIntersectingAwards &&  <Awards/>}
+                    <div className="min-h-[550px] w-full" ref={AwardsRef}>
+                        {isIntersectingAwards &&
+                            <ObserverdAnimation animationConfig={animationConfigs}>
+                                <Awards />
+                            </ObserverdAnimation>
+                        }
                     </div>
                 </div>
             </Suspense>
