@@ -1,5 +1,5 @@
-import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, NavbarItem, Button } from '@nextui-org/react'
-import { ChevronDown} from "../../icons/others";
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, NavbarItem, Button, Link } from '@nextui-org/react'
+import { ChevronDown } from "../../icons/others";
 import { moreServicesItems } from '../../helpers/navBar/menuItems';
 export default function DropDownHeader() {
   return (
@@ -9,7 +9,7 @@ export default function DropDownHeader() {
           <Button
             disableRipple
             className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base"
-            endContent={<ChevronDown fill="currentColor"/>}
+            endContent={<ChevronDown fill="currentColor" />}
             radius="sm"
             startContent={moreServicesItems.services.icon}
           >
@@ -22,15 +22,15 @@ export default function DropDownHeader() {
         className="w-[250px] h-[350px] overflow-y-scroll"
         itemClasses={{
           base: "gap-4",
-          title:'text-wrap'
+          title: 'text-wrap'
         }}
       >
         {Object.entries(moreServicesItems.subItems).map(([key, val]) => (
-          <DropdownItem key={key}
+          <DropdownItem key={key} as={Link} href={val.href}
             description="ACME scales apps to meet user demand, automagically, based on load."
             startContent={val.icon}
           >
-            {val.text}
+              {val.text}
           </DropdownItem>
         ))}
       </DropdownMenu>

@@ -6,7 +6,7 @@ export default function Awards() {
     <div className=" text-white text-lg h-full grid grid-cols-1 md:grid-cols-2 w-full bg-[url('/public/awards/bgAwards.jpg')] bg-cover bg-center p-5">
       <div className="flex flex-col text-center justify-center items-center gap-2">
         <div>
-          <h1>{awardsData.title}</h1>
+          <h1 className="text-3xl font-kaushan">{awardsData.title}</h1>
           <p>{awardsData.description01}</p>
         </div>
         <ul className="list-disc">

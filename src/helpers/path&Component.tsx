@@ -1,4 +1,5 @@
 import { lazy } from "react";
+import { URLS } from "./URLS";
 //lazy
 const Home=lazy(()=>import('../pages/home'))
 const Lodging=lazy(()=>import('../pages/lodging'))
@@ -14,7 +15,7 @@ interface PathAndComponent {
     gallery: Structure;
     offers: Structure;
     excursionsTransfers: Structure;
-    alimentacion: Structure;
+    feed: Structure;
     premium: Structure;
     events: Structure;
     spa: Structure;
@@ -22,57 +23,57 @@ interface PathAndComponent {
     socialProgram: Structure;
     club: Structure;
 }
-export const pathAndComponent: PathAndComponent = {
+const pathAndComponent: PathAndComponent = {
     home: {
-        path: '/',
+        path:URLS.home.path,
         component: <Home />
     },
     allInclude: {
-        path: '/all-include',
+        path: URLS.allInclude.path,
         component: <AllInclusive/>
     },
     lodging: {
-        path: '/lodging',
+        path: URLS.lodging.path,
         component: <Lodging />
     },
     gallery: {
-        path: '/gallery',
+        path:  URLS.gallery.path,
         component: <div>Gallery</div>
     },
     offers: {
-        path: '/offers',
+        path: URLS.offers.path,
         component: <div>Offers</div>
     },
     excursionsTransfers: {
-        path: '/excursions-transfers',
+        path: URLS.excursionsTransfers.path,
         component: <div>Excursions & Transfers</div>
     },
-    alimentacion: {
-        path: '/feeding',
+    feed: {
+        path: URLS.feed.path,
         component: <div>Alimentación</div>
     },
     premium: {
-        path: '/premium',
+        path: URLS.premium.path,
         component: <div>Premium</div>
     },
     events: {
-        path: '/events',
+        path: URLS.events.path,
         component: <div>Events</div>
     },
     spa: {
-        path: '/heliconia-spa',
+        path: URLS.spa.path,
         component: <div>Heliconia Spa</div>
     },
     entertainment: {
-        path: '/entertainment',
+        path: URLS.entertainment.path,
         component: <div>Entertainment</div>
     },
     socialProgram: {
-        path: '/social-program',
+        path: URLS.socialProgram.path,
         component: <div>Social Program</div>
     },
     club: {
-        path: '/club',
+        path: URLS.club.path,
         component: <div>Club</div>
     }
 };

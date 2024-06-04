@@ -8,7 +8,7 @@ interface Urls {
     gallery: UrlDetails;
     offers: UrlDetails;
     excursionsTransfers: UrlDetails;
-    alimentacion: UrlDetails;
+    feed: UrlDetails;
     premium: UrlDetails;
     events: UrlDetails;
     spa: UrlDetails;
@@ -41,7 +41,7 @@ export const URLS: Urls = {
     excursionsTransfers: {
         path: '/excursions-transfers',
     },
-    alimentacion: {
+    feed: {
         path: '/feeding',
     },
     premium: {

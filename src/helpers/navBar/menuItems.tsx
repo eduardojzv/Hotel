@@ -48,45 +48,40 @@ export const moreServicesItems: MoreServicesItems = {
   },
 
   subItems: {
-    alimentacion: {
+    feed: {
       text: 'Alimentos y Bebidas',
       icon: <FoodIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href:  URLS.feed.path
     },
     premium: {
       text: 'Premium',
       icon: <StarIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href: URLS.premium.path
     },
     events: {
       text: 'Reuniones, Bodas y Eventos al Aire Libre',
       icon: <PartyIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href: URLS.events.path
     },
     spa: {
       text: 'Heliconia spa',
       icon: <SpanIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href: URLS.spa.path
     },
     entertainment: {
       text: 'Entretenimiento',
       icon: <FitnessIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href: URLS.entertainment.path
     },
     socialProgram: {
       text: 'Programa de Responsabilidad Social Empresarial Humano',
       icon: <GroupUsersIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href: URLS.socialProgram.path
     },
     club: {
       text: 'Club Vacacional',
       icon: <ClubIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
-    },
-    test01: {
-      text: 'test01',
-      icon: <ClubIcon width={iconSize.width} height={iconSize.height} />,
-      href: ''
+      href: URLS.club.path
     },
   }
 }

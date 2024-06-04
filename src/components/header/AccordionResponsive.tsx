@@ -1,4 +1,4 @@
-import { Accordion, AccordionItem, Listbox, ListboxItem } from '@nextui-org/react'
+import { Accordion, AccordionItem, Link, Listbox, ListboxItem } from '@nextui-org/react'
 import { moreServicesItems } from '../../helpers/navBar/menuItems'
 
 export default function AccordionResponsive() {
@@ -17,6 +17,7 @@ export default function AccordionResponsive() {
                                 key={key}
                                 description="Create a new file"
                                 startContent={val.icon}
+                                as={Link} href={val.href}
                                 classNames={{
                                     title: 'text-wrap'
                                 }}
