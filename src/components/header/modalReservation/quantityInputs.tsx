@@ -19,7 +19,6 @@ export default function QuantityInputs({ quantityAdults, children, idx }: Props)
                 label="Cantidad de adultos"
                 placeholder="Seleccione la cantidad de Adultos"
                 defaultSelectedKeys={[`children-1`]}
-                className="max-w-xs"
                 onChange={(e)=>handleAdults(idx,Number(e.target.value))}
             >
 
@@ -34,7 +33,6 @@ export default function QuantityInputs({ quantityAdults, children, idx }: Props)
                 label="Cantidad de Niños"
                 placeholder="Seleccione la cantidad de Niños"
                 defaultSelectedKeys={["0"]}
-                className="max-w-xs"
                 onChange={(e)=>handleChildren(idx,Number(e.target.value))}
             >
 

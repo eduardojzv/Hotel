@@ -12,7 +12,6 @@ export default function ModalReservation() {
     e.preventDefault()
     console.log("ee", reservation);
   }
-
   return (
     <>
       <Button color="primary" className="absolute -bottom-10 right-10 w-40 h-10" variant="shadow"
@@ -34,17 +33,6 @@ export default function ModalReservation() {
               </ModalHeader>
               <ModalBody>
                 <div className="w-[45%]">
-                  {/* <Input
-                    className=""
-                    type="number"
-                    label="Habitaciones (min 1)"
-                    placeholder="0"
-                    labelPlacement="outside"
-                    value={reservation.length<=0?'':reservation.length.toString()}
-                    onValueChange={(val)=>handleRoom(Number(val))}
-                    min={0}
-                    isRequired
-                  /> */}
                   <Select
                     isRequired
                     label="Cantidad de Habitaciones"
@@ -52,7 +40,6 @@ export default function ModalReservation() {
                     defaultSelectedKeys={["1"]}
                     className="max-w-xs"
                     onChange={(e)=>handleRoom(Number(e.target.value))}
-                    //onChange={(e) => handleChildren(idx, Number(e.target.value))}
                   >
 
                     {Array.from({ length: 10 }, (_, index) => (
@@ -72,7 +59,7 @@ export default function ModalReservation() {
                           <TrashIcon width='20px' height='20px' className="fill-red-400 cursor-pointer hover:fill-red-600" onClick={() => deleteRoom(idx)} />
                         </div>
                         <QuantityInputs quantityAdults={item.adults} children={item.children} idx={idx} />
-                        <ChildrenAges key={`ages-${idx}`} children={item.children} />
+                        <ChildrenAges key={`ages-${idx}`} children={item.children} pos={idx}/>
                         <Divider />
                       </div>
                     ))

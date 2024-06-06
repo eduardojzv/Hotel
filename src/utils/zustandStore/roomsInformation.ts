@@ -7,7 +7,7 @@ interface Rooms {
   
   }[]
 
-  export const useFormModal = create<Rooms>()(() => ({
+  export const useRoomsInformation = create<Rooms>()(() => ({
     title:'title test',
     description:'descip test',
     img:""

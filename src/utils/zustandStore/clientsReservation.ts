@@ -13,6 +13,7 @@ interface ReservationStore {
   deleteRoom: (idx: number) => void;
   handleAdults: (idx: number, newAdultCount: number) => void;
   handleChildren: (idx: number, newChildrenCount: number) => void;
+  handleAges: (val: number,idx:number) => void;
 }
 const defaulReservation: ReservationDetails = {
   adults: 1,
@@ -44,11 +45,16 @@ export const useFormModal = create<ReservationStore>()((set) => ({
   }),
   handleChildren: (idx, newChildrenCount) => set((state) => {    
     const adjustedChildrenCount = Math.min(Math.max(newChildrenCount, 0), 12);
-    return {
-      reservation: state.reservation.map((room, index) =>
-        index === idx ? { ...room, children: { ...room.children, quantity: adjustedChildrenCount } } : room
-      )
+    state.reservation[idx] = {
+      ...state.reservation[idx],
+      children: {
+        ...state.reservation[idx].children,
+        quantity: adjustedChildrenCount
+      }
     };
+    
+    return { reservation: state.reservation };
+    
   }),
   handleRoom: (val) => set((state) => {
     const adjustedVal = Math.min(Math.max(val, 0), 10);
@@ -63,6 +69,22 @@ export const useFormModal = create<ReservationStore>()((set) => ({
       return state;
     }
   }),
+  handleAges: (val, idx) => set((state) => {
+    const newAges = [...state.reservation[idx].children.ages, val];
+  
+    const newReservation = state.reservation.map((room, index) =>
+      index === idx ? {
+        ...room,
+        children: {
+          ...room.children,
+          ages: newAges
+        }
+      } : room
+    );
+  
+    return { reservation: newReservation };
+  }),
+  
   deleteRoom: (idx) => set((state) => ({
     reservation: state.reservation.filter((_, index) => index !== idx)
   })),
