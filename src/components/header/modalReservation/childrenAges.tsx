@@ -8,9 +8,7 @@ interface Props {
     }
 }
 export default function ChildrenAges({children,pos}:Props) {
-    const { reservation,handleAges} = useFormModal()
-    console.log("res",reservation);
-    
+    const {handleAges} = useFormModal()
     return (
         <div className="flex flex-row flex-wrap gap-2 items-center justify-center p-1">
             {

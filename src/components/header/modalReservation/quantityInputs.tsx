@@ -2,35 +2,26 @@ import { Select, SelectItem } from '@nextui-org/react';
 import { useFormModal } from '../../../utils/zustandStore/clientsReservation';
 interface Props {
     idx: number;
-    children: {
-        quantity: number;
-        ages: number[];
-    };
-    quantityAdults: number;
 }
-export default function QuantityInputs({ quantityAdults, children, idx }: Props) {
+export default function QuantityInputs({idx }: Props) {
     const { handleAdults, handleChildren } = useFormModal()
-    console.log(quantityAdults,children);
-    
     return (
         <div className='flex flex-row gap-2'>
             <Select
-                isRequired
-                label="Cantidad de adultos"
+                label="N° Adultos"
                 placeholder="Seleccione la cantidad de Adultos"
-                defaultSelectedKeys={[`children-1`]}
+                defaultSelectedKeys={[`1`]}
                 onChange={(e)=>handleAdults(idx,Number(e.target.value))}
             >
 
                 {Array.from({ length: 10 }, (_, index) => (
-                    <SelectItem key={`children-${index+1}`} textValue={(index+1).toString()}>
+                    <SelectItem key={index+1} textValue={(index+1).toString()}>
                     {index+1}
                 </SelectItem>
                 ))}
             </Select>
             <Select
-                isRequired
-                label="Cantidad de Niños"
+                label="N° Niños"
                 placeholder="Seleccione la cantidad de Niños"
                 defaultSelectedKeys={["0"]}
                 onChange={(e)=>handleChildren(idx,Number(e.target.value))}

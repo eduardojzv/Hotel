@@ -34,11 +34,10 @@ export default function ModalReservation() {
               <ModalBody>
                 <div className="w-[45%]">
                   <Select
-                    isRequired
-                    label="Cantidad de Habitaciones"
+                    label="N° Habitaciones"
                     placeholder="Seleccione la cantidad de Niños"
                     defaultSelectedKeys={["1"]}
-                    className="max-w-xs"
+                    className="w-full"
                     onChange={(e)=>handleRoom(Number(e.target.value))}
                   >
 
@@ -58,7 +57,7 @@ export default function ModalReservation() {
                           <h1>Cuarto N°{idx + 1}</h1>
                           <TrashIcon width='20px' height='20px' className="fill-red-400 cursor-pointer hover:fill-red-600" onClick={() => deleteRoom(idx)} />
                         </div>
-                        <QuantityInputs quantityAdults={item.adults} children={item.children} idx={idx} />
+                        <QuantityInputs idx={idx} />
                         <ChildrenAges key={`ages-${idx}`} children={item.children} pos={idx}/>
                         <Divider />
                       </div>

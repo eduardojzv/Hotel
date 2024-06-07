@@ -19,7 +19,7 @@ export default function DateRange() {
                 maxValue={oneYearLater}
                 onChange={setCalendarValue}
                 label="Tiempo de Estadia"
-                className="max-w-xs"
+                className="w-auto"
             />
         </I18nProvider>
     )
