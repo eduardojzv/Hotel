@@ -16,6 +16,9 @@ interface Urls {
     socialProgram: UrlDetails;
     club: UrlDetails;
 }
+interface ReservationUrls {
+    datesOfStay: UrlDetails;
+}
 interface FooterUrls {
     contactLocation: UrlDetails;
     emailOffers: UrlDetails;
@@ -63,6 +66,11 @@ export const URLS: Urls = {
         path: '/club',
     }
 };
+export const ReservationURLS:ReservationUrls={
+    datesOfStay:{
+        path:'/dates-of-stay'
+    }
+}
 export const FooterURLS: FooterUrls = {
     contactLocation: {
         path: "/contact-location"

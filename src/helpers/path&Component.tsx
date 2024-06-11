@@ -1,9 +1,10 @@
 import { lazy } from "react";
-import { URLS } from "./URLS";
+import { ReservationURLS, URLS } from "./URLS";
 //lazy
 const Home=lazy(()=>import('../pages/home'))
 const Lodging=lazy(()=>import('../pages/lodging'))
 const AllInclusive=lazy(()=>import('../pages/allInclusive'))
+const DatesOfStay=lazy(()=>import('../pages/datesOfStay'))
 interface Structure {
     path: string;
     component: React.ReactNode
@@ -22,6 +23,7 @@ interface PathAndComponent {
     entertainment: Structure;
     socialProgram: Structure;
     club: Structure;
+    datesOfStay:Structure;
 }
 const pathAndComponent: PathAndComponent = {
     home: {
@@ -75,6 +77,10 @@ const pathAndComponent: PathAndComponent = {
     club: {
         path: URLS.club.path,
         component: <div>Club</div>
+    },
+    datesOfStay:{
+        path:ReservationURLS.datesOfStay.path,
+        component:<DatesOfStay/>
     }
 };
 

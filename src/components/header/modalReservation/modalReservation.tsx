@@ -5,12 +5,16 @@ import QuantityInputs from "./quantityInputs";
 import { FormEvent } from "react";
 import { useFormModal } from "../../../utils/zustandStore/clientsReservation";
 import ChildrenAges from "./childrenAges";
+import { useNavigate} from "react-router-dom";
+import { ReservationURLS } from "../../../helpers/URLS";
 export default function ModalReservation() {
   const { reservation, deleteRoom, handleRoom } = useFormModal()
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const navigate=useNavigate();
   function obSubmitForm(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     console.log("ee", reservation);
+    navigate(ReservationURLS.datesOfStay.path)
   }
   return (
     <>

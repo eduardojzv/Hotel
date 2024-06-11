@@ -1,8 +1,5 @@
 import MainLayout from "../layout/mainLayout";
-
-type Props = {}
-
-export default function Lodging({}: Props) {
+export default function Lodging() {
   return (
     <MainLayout>
       <div>lodging123</div>
